@@ -39,7 +39,6 @@ export const templates: Template[] = [
               fontSize: '1.3em',
               fontWeight: 'bold',
               textAlign: 'center'
-              // textShadow: '1px 1px 3px rgba(0,0,0,0.05)'
             },
 
               // 二级标题
