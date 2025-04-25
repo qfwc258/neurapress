@@ -39,7 +39,7 @@ export const templates: Template[] = [
               fontSize: '1.3em',
               fontWeight: 'bold',
               textAlign: 'center',
-              textshadow: '1px 1px 3px rgba(0,0,0,0.05)'
+              textShadow: '1px 1px 3px rgba(0,0,0,0.05)'
             },
 
               // 二级标题
@@ -51,8 +51,8 @@ export const templates: Template[] = [
               background: 'var(--themeColor)',
               fontSize: '1.2em',
               fontWeight: 'bold',
-              borderradius: '8px 24px 8px 24px',
-              boxshadow: '0 2px 6px rgba(0,0,0,0.06)',
+              borderRadius: '8px 24px 8px 24px',
+              boxShadow: '0 2px 6px rgba(0,0,0,0.06)',
               textAlign: 'center'
             },
         
@@ -64,10 +64,10 @@ export const templates: Template[] = [
               color: 'hsl(var(--foreground))',
               fontSize: '1.1em',
               fontWeight: 'bold',
-              borderleft: '4px solid var(--themeColor)',
-              borderright: '1px solid color-mix(in srgb, var(--themeColor) 10%, transparent)',
-              borderbottom: '1px solid color-mix(in srgb, var(--themeColor) 10%, transparent)',
-              bordertop: '1px solid color-mix(in srgb, var(--themeColor) 10%, transparent)',
+              borderLeft: '4px solid var(--themeColor)',
+              borderRight: '1px solid color-mix(in srgb, var(--themeColor) 10%, transparent)',
+              borderBottom: '1px solid color-mix(in srgb, var(--themeColor) 10%, transparent)',
+              borderTop: '1px solid color-mix(in srgb, var(--themeColor) 10%, transparent)',
               background: 'color-mix(in srgb, var(--themeColor) 8%, transparent)',
               color: 'var(--themeColor)',
               margin: '2em 8px 0.75em 0',
