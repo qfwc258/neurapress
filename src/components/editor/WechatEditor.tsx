@@ -145,11 +145,6 @@ export default function WechatEditor() {
     localStorage.removeItem('wechat_editor_draft')
     setValue(savedContent || '')
     setIsDraft(false)
-    toast({
-      title: "已放弃草稿",
-      description: "已恢复到上次保存的内容",
-      duration: 2000
-    })
   }, [toast])
 
   // 处理文章选择
