@@ -47,7 +47,7 @@ export const templates: Template[] = [
               padding: '0.3em 1.2em',
               margin: '2em auto 2em',
               color: '#fff',
-              background: 'var(--themeColor)',
+              background: 'rgb(254, 245, 245)',
               fontSize: '1.2em',
               fontWeight: 'bold',
               borderRadius: '8px 24px 8px 24px',
