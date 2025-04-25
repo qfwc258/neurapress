@@ -253,11 +253,6 @@ export default function WechatEditor() {
     if (draftContent) {
       setValue(draftContent)
       setIsDraft(true)
-      toast({
-        description: "已恢复未保存的草稿",
-        action: <ToastAction altText="放弃" onClick={handleDiscardDraft}>放弃草稿</ToastAction>,
-        duration: 5000,
-      })
     } else if (savedContent) {
       setValue(savedContent)
     } else {
