@@ -269,11 +269,6 @@ export default function WechatEditor() {
       // 如果没有保存的内容或草稿，则加载示例内容
       const exampleContent = getExampleContent()
       setValue(exampleContent)
-      toast({
-        title: "欢迎使用 NeuraPress",
-        description: "已加载示例内容，您可以开始编辑或查看效果",
-        duration: 3000,
-      })
     }
   }, [toast, handleDiscardDraft])
 
