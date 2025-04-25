@@ -12,8 +12,218 @@ export interface Template {
 export const templates: Template[] = [
   {
     id: 'default',
-    name: '默认样式',
-    description: '清晰简约的默认样式',
+    name: '律海行',
+    description: '小陈陈自定义的默认样式',
+    styles: '',
+    options: {
+        base: {
+            themeColor: 'rgb(15, 76, 129)',
+            fontFamily: '-apple-system-font, BlinkMacSystemFont, "Helvetica Neue", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei UI", "Microsoft YaHei", Arial, sans-serif',
+            textAlign: 'left',
+            lineHeight: '2',
+            padding: '1rem 1.5rem',
+            maxWidth: '100%',
+            margin: '0 auto',
+            wordBreak: 'break-word',
+            whiteSpace: 'pre-wrap',
+            fontSize: '15px',
+            color: '#333'
+          },
+          block: {    // 一级标题
+            h1: {
+              display: 'table',
+              padding: '0.5em 1em',
+              borderBottom: '2px solid var(--themeColor)',
+              margin: '2em auto 1em',
+              color: 'hsl(var(--foreground))',
+              fontSize: '1.3em',
+              fontWeight: 'bold',
+              textAlign: 'center',
+              text-shadow: '1px 1px 3px rgba(0,0,0,0.05)'
+            },
+
+              // 二级标题
+            h2: {
+              display: 'table',
+              padding: '0.3em 1.2em',
+              margin: '2em auto 2em',
+              color: '#fff',
+              background: 'var(--themeColor)',
+              fontSize: '1.2em',
+              fontWeight: 'bold',
+              border-radius: '8px 24px 8px 24px',
+              box-shadow: '0 2px 6px rgba(0,0,0,0.06)',
+              textAlign: 'center'
+            },
+        
+            // 三级标题
+            h3: {
+              paddingLeft: '8px',
+              borderLeft: '3px solid var(--themeColor)',
+              margin: '2em 8px 0.75em 0',
+              color: 'hsl(var(--foreground))',
+              fontSize: '1.1em',
+              fontWeight: 'bold',
+              border-left: '4px solid var(--themeColor)',
+              border-right: '1px solid color-mix(in srgb, var(--themeColor) 10%, transparent)',
+              border-bottom: '1px solid color-mix(in srgb, var(--themeColor) 10%, transparent)',
+              border-top: '1px solid color-mix(in srgb, var(--themeColor) 10%, transparent)',
+              background: 'color-mix(in srgb, var(--themeColor) 8%, transparent)',
+              color: 'var(--themeColor)',
+              margin: '2em 8px 0.75em 0',
+              lineHeight: '2.4em'
+            },
+        
+            // 四级标题
+            h4: {
+              'margin': `2em 8px 0.5em`,
+              'color': `var(--themeColor)`,
+              'fontSize': `1em`,
+              'fontWeight': `bold`,
+            },  
+            
+            // 五级标题
+            h5: {
+              'margin': `1.5em 8px 0.5em`,
+              'color': `var(--themeColor)`,
+              'fontSize': `1em`,
+              'fontWeight': `bold`,
+            },
+        
+            // 六级标题
+            h6: {
+              'margin': `1.5em 8px 0.5em`,
+              'fontSize': `1em`,
+              'color': `var(--themeColor)`,
+            },
+        
+            // 段落
+            p: {
+              'fontSize': `var(--fontSize)`,
+              'margin': `1.5em 8px`,
+              'letterSpacing': `0.1em`,
+              'color': `hsl(var(--foreground))`,
+              'textAlign': `justify`,
+            },
+        
+            // 引用
+            blockquote: {
+              fontStyle: 'normal',
+              padding: '1em',
+              borderLeft: '4px solid var(--themeColor)',
+              borderRadius: '6px',
+              color: 'rgba(0,0,0,0.5)',
+              background: 'var(--blockquote-background)',
+              margin: '0 0 1em 0'
+            },
+        
+            // 代码块
+            code_pre: {
+              'fontSize': `14px`,
+              'overflowX': `auto`,
+              'borderRadius': `8px`,
+              'padding': `1em`,
+              'lineHeight': `1.5`,
+              'margin': `10px 8px`,
+            },
+        
+            // 行内代码
+            code: {
+              margin: '0',
+              fontFamily: 'Menlo, Operator Mono, Consolas, Monaco, monospace'
+            },
+        
+            // 图片
+            image: {
+              'display': `block`,
+              'width': `100% !important`,
+              'margin': `0.1em auto 0.5em`,
+              'borderRadius': `4px`,
+            },
+        
+            // 有序列表
+            ol: {
+              paddingLeft: '1em',
+              color: 'hsl(var(--foreground))'
+            },
+        
+            // 无序列表
+            ul: {
+              listStyle: 'circle',
+              paddingLeft: '1em',
+              color: 'hsl(var(--foreground))'
+            },
+        
+            footnotes: {
+              'margin': `0.5em 8px`,
+              'fontSize': `80%`,
+              'color': `hsl(var(--foreground))`,
+            },
+
+            table: {
+              textAlign: 'center',
+              margin: '1em 8px',
+              color: 'hsl(var(--foreground))'
+            },
+
+            thead: {
+              'background': `rgba(0, 0, 0, 0.05)`,
+              'fontWeight': `bold`,
+              'color': `hsl(var(--foreground))`,
+            },
+
+            td: {
+              border: '1px solid #dfdfdf',
+              padding: '0.25em 0.5em',
+              color: '#3f3f3f',
+            },
+
+          
+          },
+          inline: {
+            listitem: {
+              display: 'block',
+              margin: '0.2em 8px',
+              color: 'hsl(var(--foreground))'
+            },
+        
+            codespan: {
+              'fontSize': `90%`,
+              'color': `#d14`,
+              'background': `rgba(27,31,35,.05)`,
+              'padding': `3px 5px`,
+              'borderRadius': `4px`,
+              // 'word-break': `break-all`,
+            },
+        
+            em: {
+              'fontStyle': `italic`,
+              'fontSize': `inherit`,
+            },
+        
+            link: {
+              color: `#576b95`,
+            },
+      
+            // 字体加粗样式
+            strong: {
+              'color': `var(--themeColor)`,
+              'fontWeight': `bold`,
+              'fontSize': `inherit`,
+            },
+        
+            footnote: {
+              'fontSize': `12px`,
+              'color': `hsl(var(--foreground))`,
+            }
+          }
+        },
+        transform: (html: string) => html
+  },
+   {
+    id: 'zhidai',
+    name: '绿色样式',
+    description: '清晰简约的绿色样式',
     styles: '',
     options: {
         base: {
