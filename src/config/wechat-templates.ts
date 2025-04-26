@@ -57,17 +57,13 @@ export const templates: Template[] = [
         
             // 三级标题
             h3: {
-              paddingLeft: '8px',  
+              paddingLeft: '8px',
+              borderLeft: '3px solid var(--themeColor)',
+              margin: '2em 8px 0.75em 0',
+              color: 'hsl(var(--foreground))',
               fontSize: '1.1em',
               fontWeight: 'bold',
-              borderLeft: '4px solid var(--themeColor)',
-              borderRight: '1px solid color-mix(in srgb, var(--themeColor) 10%, transparent)',
-              borderBottom: '1px solid color-mix(in srgb, var(--themeColor) 10%, transparent)',
-              borderTop: '1px solid color-mix(in srgb, var(--themeColor) 10%, transparent)',
-              background: 'color-mix(in srgb, var(--themeColor) 8%, transparent)',
-              color: 'var(--themeColor)',
-              margin: '2em 8px 0.75em 0',
-              lineHeight: '2.4em'
+              lineHeight: '1.2'
             },
         
             // 四级标题
