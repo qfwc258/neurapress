@@ -72,7 +72,7 @@ export const templates: Template[] = [
                 color: 'hsl(var(--foreground))',
                 marginRight: '8px',
                 fontSize: '1.1em'
-             }
+             },
         
             // 四级标题
             h4: {
