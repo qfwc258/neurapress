@@ -67,8 +67,8 @@ export const templates: Template[] = [
               lineHeight: '1.2'
             },
 
-            h3::before {
-                content: '\u25A0',
+            "h3::before": {
+                content: '■',
                 color: 'hsl(var(--foreground))',
                 marginRight: '8px',
                 fontSize: '1.1em'
