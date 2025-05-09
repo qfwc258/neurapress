@@ -64,15 +64,16 @@ export const templates: Template[] = [
               color: 'hsl(var(--foreground))',
               fontSize: '1.1em',
               fontWeight: 'bold',
-              lineHeight: '1.2'
-            },
-
-            "h3::before": {
+              lineHeight: '1.2',
+              "&::before": {
                 content: '■',
                 color: 'hsl(var(--foreground))',
                 marginRight: '8px',
                 fontSize: '1.1em'
-             },
+             }
+            },
+
+            
         
             // 四级标题
             h4: {
