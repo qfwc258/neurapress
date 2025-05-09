@@ -54,6 +54,7 @@ export const templates: Template[] = [
               // boxShadow: '0 2px 6px rgba(0,0,0,0.06)',
               textAlign: 'center'
             },
+     
         
             // 三级标题
             h3: {
@@ -65,6 +66,13 @@ export const templates: Template[] = [
               fontWeight: 'bold',
               lineHeight: '1.2'
             },
+
+            h1::before {
+                content: '■',
+                color: 'hsl(var(--foreground))',
+                marginRight: '8px',
+                fontSize: '1.1em'
+             }
         
             // 四级标题
             h4: {
