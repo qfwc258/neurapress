@@ -59,7 +59,7 @@ export const templates: Template[] = [
             // 三级标题
             h3: {
               paddingLeft: '8px',
-              borderLeft: '18px solid var(--themeColor)',
+              borderLeft: '3px solid var(--themeColor)',
               margin: '2em 8px 0.75em 0',
               color: 'hsl(var(--foreground))',
               fontSize: '1.1em',
