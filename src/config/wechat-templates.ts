@@ -64,8 +64,10 @@ export const templates: Template[] = [
               color: 'hsl(var(--foreground))',
               fontSize: '1.1em',
               fontWeight: 'bold',
-              lineHeight: '1.2'
-        
+              lineHeight: '1.2',
+              "&::before": {
+                   content: '■',
+                   } as any
             },
 
             
