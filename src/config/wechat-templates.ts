@@ -26,7 +26,7 @@ export const templates: Template[] = [
             margin: '0 auto',
             wordBreak: 'break-word',
             whiteSpace: 'pre-wrap',
-            fontSize: '15px',
+            fontSize: '16px',
             color: '#333'
           },
           block: {    // 一级标题
@@ -36,7 +36,7 @@ export const templates: Template[] = [
               borderBottom: '2px solid var(--themeColor)',
               margin: '2em auto 1em',
               color: 'hsl(var(--foreground))',
-              fontSize: '1.3em',
+              fontSize: '1.4em',
               fontWeight: 'bold',
               textAlign: 'center'
             },
@@ -48,7 +48,7 @@ export const templates: Template[] = [
               margin: '2em auto 2em',
               color: '#fff',
               background: 'rgb(245, 245, 245)',
-              fontSize: '1.2em',
+              fontSize: '1.3em',
               fontWeight: 'bold',
               borderRadius: '8px 24px 8px 24px',
               // boxShadow: '0 2px 6px rgba(0,0,0,0.06)',
@@ -62,7 +62,7 @@ export const templates: Template[] = [
               borderLeft: '3px solid var(--themeColor)',
               margin: '2em 8px 0.75em 0',
               color: 'hsl(var(--foreground))',
-              fontSize: '1.1em',
+              fontSize: '1.2em',
               fontWeight: 'bold',
               lineHeight: '1.2'
             
@@ -74,7 +74,7 @@ export const templates: Template[] = [
             h4: {
               'margin': `2em 8px 0.5em`,
               'color': `var(--themeColor)`,
-              'fontSize': `1em`,
+              'fontSize': `1.2em`,
               'fontWeight': `bold`,
             },  
             
@@ -82,14 +82,14 @@ export const templates: Template[] = [
             h5: {
               'margin': `1.5em 8px 0.5em`,
               'color': `var(--themeColor)`,
-              'fontSize': `1em`,
+              'fontSize': `1.1em`,
               'fontWeight': `bold`,
             },
         
             // 六级标题
             h6: {
               'margin': `1.5em 8px 0.5em`,
-              'fontSize': `1em`,
+              'fontSize': `1.1em`,
               'color': `var(--themeColor)`,
             },
         
