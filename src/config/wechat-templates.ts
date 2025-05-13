@@ -70,25 +70,25 @@ export const templates: Template[] = [
         
             // 四级标题
             h4: {
-              'margin': `2em 8px 0.5em`,
-              'color': `var(--themeColor)`,
-              'fontSize': `1.2em`,
-              'fontWeight': `bold`,
+              margin: '2em 8px 0.5em',
+              color: 'var(--themeColor)',
+              fontSize: '1.2em',
+              fontWeight: 'bold'
             },  
             
             // 五级标题
             h5: {
-              'margin': `1.5em 8px 0.5em`,
-              'color': `#333`,
-              'fontSize': `1.1em`,
-              'fontWeight': `bold`,
+              margin: '1.5em 8px 0.5em',
+              color: '#333333',
+              fontSize: '1.1em',
+              fontWeight: 'bold'
             },
         
             // 六级标题
             h6: {
-              'margin': `1.5em 8px 0.5em`,
-              'fontSize': `1.1em`,
-              'color': `#333`,
+              margin: '1.5em 8px 0.5em',
+              fontSize': '1.1em',
+              color: '#333333'
             },
         
             // 段落
@@ -203,7 +203,7 @@ export const templates: Template[] = [
             strong: {
               color: '#333333',
               fontWeight: 'bold',
-              fontSize: 'inherit',
+              fontSize: 'inherit'
             },
         
             footnote: {
