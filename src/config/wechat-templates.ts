@@ -87,7 +87,7 @@ export const templates: Template[] = [
             // 六级标题
             h6: {
               margin: '1.5em 8px 0.5em',
-              fontSize': '1.1em',
+              fontSize: '1.1em',
               color: '#333333'
             },
         
