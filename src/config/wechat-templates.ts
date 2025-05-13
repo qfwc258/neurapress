@@ -79,7 +79,7 @@ export const templates: Template[] = [
             // 五级标题
             h5: {
               'margin': `1.5em 8px 0.5em`,
-              'color': `#333333`,
+              'color': `#333`,
               'fontSize': `1.1em`,
               'fontWeight': `bold`,
             },
@@ -88,7 +88,7 @@ export const templates: Template[] = [
             h6: {
               'margin': `1.5em 8px 0.5em`,
               'fontSize': `1.1em`,
-              'color': `#333333`,
+              'color': `#333`,
             },
         
             // 段落
@@ -201,7 +201,7 @@ export const templates: Template[] = [
       
             // 字体加粗样式
             strong: {
-              'color': `#333333`,
+              'color': `#333`,
               'fontWeight': `bold`,
               'fontSize': `inherit`,
             },
