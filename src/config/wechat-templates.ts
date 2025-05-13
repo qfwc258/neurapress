@@ -61,19 +61,17 @@ export const templates: Template[] = [
               paddingLeft: '8px',
               borderLeft: '3px solid var(--themeColor)',
               margin: '2em 8px 0.75em 0',
-              color: '#333',
+              color: 'var(--themeColor)',
               fontSize: '1.2em',
               fontWeight: 'bold',
               lineHeight: '1.2'
             
             },
-
-            
         
             // 四级标题
             h4: {
               'margin': `2em 8px 0.5em`,
-              'color': `#333`,
+              'color': `var(--themeColor)`,
               'fontSize': `1.2em`,
               'fontWeight': `bold`,
             },  
@@ -81,7 +79,7 @@ export const templates: Template[] = [
             // 五级标题
             h5: {
               'margin': `1.5em 8px 0.5em`,
-              'color': `#333`,
+              'color': `#333333`,
               'fontSize': `1.1em`,
               'fontWeight': `bold`,
             },
@@ -90,7 +88,7 @@ export const templates: Template[] = [
             h6: {
               'margin': `1.5em 8px 0.5em`,
               'fontSize': `1.1em`,
-              'color': `#333`,
+              'color': `#333333`,
             },
         
             // 段落
