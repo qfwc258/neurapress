@@ -114,7 +114,7 @@ export interface RendererOptions {
     mermaid?: StyleOptions
   }
   inline?: {
-    strong?: string
+    strong?: StyleOptions
     em?: StyleOptions
     codespan?: StyleOptions
     link?: StyleOptions
