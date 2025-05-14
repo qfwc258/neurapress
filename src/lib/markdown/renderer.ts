@@ -245,7 +245,7 @@ export class MarkdownRenderer {
       const strongStyle = (this.options.inline?.strong || {})
       const style = {
         ...strongStyle,
-        color: this.options.base?.themeColor,
+        color: this.options.base?.color,
         fontWeight: 'bold'
       }
       const styleStr = cssPropertiesToString(style)
