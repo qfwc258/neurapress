@@ -84,20 +84,13 @@ export const usePreviewContent = ({
         }
       },
       inline: {
-  // 优先合并 styleOptions.inline（低优先级）
   ...(styleOptions.inline || {}),
-  // 再合并 template.options.inline（高优先级，覆盖前者）
   ...(template?.options?.inline || {}),
-  // 单独处理 listitem，同样保持模板优先级更高
   listitem: {
-    // 先合并 styleOptions.inline.listitem（低优先级）
     ...(styleOptions.inline?.listitem || {}),
-    // 再合并 template.options.inline.listitem（高优先级）
     ...(template?.options?.inline?.listitem || {}),
-    // 显式设置 fontSize（最终兜底值）
     fontSize: template?.options?.base?.fontSize || styleOptions.base?.fontSize || '15px', 
   }
-   }
       },
       codeTheme
     }
