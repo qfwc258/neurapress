@@ -84,7 +84,7 @@ export function EditorPreview({
         selectedTemplate && templates.find(t => t.id === selectedTemplate)?.styles
       )}>
         <div 
-          className="px-6"
+          className="px-1"
           dangerouslySetInnerHTML={{ __html: previewContent }}
         />
       </div>
