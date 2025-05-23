@@ -231,7 +231,7 @@ export function EditorPreview({
         className="flex-1 overflow-y-auto"
         onScroll={handlePreviewScroll}
       >
-        <div className="h-full py-8 px-4">
+        <div className="h-full py-8 px-0">
           <div
             ref={contentRef}
             className={cn(
