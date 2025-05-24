@@ -192,7 +192,7 @@ export const templates: Template[] = [
         
             em: {
               'fontStyle': `italic`,
-              'fontSize': `inherit`,
+              'fontSize': `90%`,
             },
         
             link: {
