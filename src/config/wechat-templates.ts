@@ -182,7 +182,7 @@ export const templates: Template[] = [
             },
         
             codespan: {
-              'fontSize': `90%`,
+              'fontSize': `95%`,
               'color': `#d14`,
               'background': `rgba(27,31,35,.05)`,
               'padding': `3px 5px`,
