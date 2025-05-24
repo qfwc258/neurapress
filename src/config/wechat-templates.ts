@@ -50,7 +50,7 @@ export const templates: Template[] = [
               background: 'rgb(245, 245, 245)',
               fontSize: '1.3em',
               fontWeight: 'bold',
-              borderRadius: '8px 24px 8px 24px',
+              borderRadius: '0px 24px 24px 0px',
               // boxShadow: '0 2px 6px rgba(0,0,0,0.06)',
               textAlign: 'center'
             },
