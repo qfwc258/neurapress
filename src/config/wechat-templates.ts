@@ -26,7 +26,7 @@ export const templates: Template[] = [
             margin: '0 auto',
             wordBreak: 'break-word',
             whiteSpace: 'pre-wrap',
-            fontSize: '16px',
+            fontSize: '17px',
             color: '#333'
           },
           block: {    // 一级标题
