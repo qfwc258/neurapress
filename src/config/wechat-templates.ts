@@ -98,6 +98,7 @@ export const templates: Template[] = [
               'letterSpacing': `0.1em`,
               'color': `hsl(var(--foreground))`,
               'textAlign': `justify`,
+              'lineHeight': `1.5em`,
             },
         
             // 引用
