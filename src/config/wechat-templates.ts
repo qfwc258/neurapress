@@ -10,9 +10,232 @@ export interface Template {
 }
 
 export const templates: Template[] = [
+{
+  id: 'default',
+  name: '律海行',
+  description: '小陈陈自定义的默认样式',
+  styles: '',
+  options: {
+    base: {
+      themeColor: 'rgb(15, 76, 129)',
+      fontFamily: '-apple-system-font, BlinkMacSystemFont, "Helvetica Neue", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei UI", "Microsoft YaHei", Arial, sans-serif',
+      textAlign: 'left',
+      lineHeight: '1.7',
+      padding: '1rem 1.5rem',
+      maxWidth: '100%',
+      margin: '0 auto',
+      wordBreak: 'break-word',
+      whiteSpace: 'pre-wrap',
+      fontSize: '16px',
+      color: '#000000',
+      backgroundColor: '#ffffff'
+    },
+    block: {
+      // 一级标题
+      h1: {
+        display: 'table',
+        padding: '0.5em 1em',
+        borderBottom: '2px solid var(--themeColor)',
+        margin: '2em auto 1em',
+        color: '#000000',
+        fontSize: '1.4em',
+        fontWeight: 'bold',
+        textAlign: 'center'
+      },
+
+      // 二级标题
+      h2: {
+        display: 'table',
+        padding: '0.3em 1.2em',
+        margin: '2em auto 2em',
+        color: '#000000',
+        background: 'rgb(245, 245, 245)',
+        fontSize: '1.3em',
+        fontWeight: 'bold',
+        borderRadius: '0px 24px 24px 0px',
+        textAlign: 'center'
+      },
+
+      // 三级标题
+      h3: {
+        paddingLeft: '8px',
+        borderLeft: '3px solid var(--themeColor)',
+        margin: '2em 8px 0.75em 0',
+        color: '#000000',
+        fontSize: '1.2em',
+        fontWeight: 'bold',
+        lineHeight: '1.2'
+      },
+
+      // 四级标题
+      h4: {
+        margin: '2em 8px 0.5em',
+        color: '#000000',
+        fontSize: '1.2em',
+        fontWeight: 'bold'
+      },
+
+      // 五级标题
+      h5: {
+        margin: '1.5em 8px 0.5em',
+        color: '#000000',
+        fontSize: '1.1em',
+        fontWeight: 'bold'
+      },
+
+      // 六级标题
+      h6: {
+        margin: '1.5em 8px 0.5em',
+        fontSize: '1.1em',
+        color: '#000000'
+      },
+
+      // 段落 - 根据图片中的排版修改
+      p: {
+        'fontSize': '16px',
+        'margin': '0 0 1.5em 0',  // 调整为与图片类似的段后距
+        'lineHeight': '1.7',
+        'color': '#000000',
+        'textAlign': 'justify',
+        'textIndent': '2em',  // 添加首行缩进
+        'letterSpacing': '0.01em'  // 轻微字间距
+      },
+
+      // 引用
+      blockquote: {
+        fontStyle: 'normal',
+        padding: '1em',
+        borderLeft: '4px solid var(--themeColor)',
+        borderRadius: '6px',
+        color: '#000000',
+        background: 'rgba(0, 0, 0, 0.05)',
+        margin: '0 0 1.5em 0',
+        lineHeight: '1.6'
+      },
+
+      // 代码块
+      code_pre: {
+        'fontSize': '14px',
+        'overflowX': 'auto',
+        'borderRadius': '8px',
+        'padding': '1em',
+        'lineHeight': '1.5',
+        'margin': '0 0 1.5em 0',
+        'backgroundColor': 'rgba(0, 0, 0, 0.05)',
+        'color': '#000000'
+      },
+
+      // 行内代码
+      code: {
+        margin: '0',
+        fontFamily: 'Menlo, Operator Mono, Consolas, Monaco, monospace',
+        fontSize: '14px',
+        backgroundColor: 'rgba(0, 0, 0, 0.05)',
+        padding: '2px 4px',
+        borderRadius: '4px',
+        color: '#d14'
+      },
+
+      // 图片
+      image: {
+        'display': 'block',
+        'maxWidth': '100%',
+        'height': 'auto',
+        'margin': '0 auto 1.5em',
+        'borderRadius': '4px',
+      },
+
+      // 有序列表
+      ol: {
+        paddingLeft: '1.5em',
+        color: '#000000',
+        margin: '0 0 1.5em 0',
+        lineHeight: '1.7'
+      },
+
+      // 无序列表
+      ul: {
+        listStyleType: 'circle',
+        paddingLeft: '1.5em',
+        color: '#000000',
+        margin: '0 0 1.5em 0',
+        lineHeight: '1.7'
+      },
+
+      footnotes: {
+        'margin': '0.5em 0',
+        'fontSize': '14px',
+        'color': '#000000',
+        'lineHeight': '1.6'
+      },
+
+      table: {
+        textAlign: 'center',
+        margin: '0 0 1.5em 0',
+        color: '#000000',
+        borderCollapse: 'collapse',
+        width: '100%'
+      },
+
+      thead: {
+        'background': 'rgba(0, 0, 0, 0.05)',
+        'fontWeight': 'bold',
+        'color': '#000000',
+      },
+
+      td: {
+        border: '1px solid rgba(0, 0, 0, 0.2)',
+        padding: '0.5em 0.75em',
+        color: '#000000',
+      },
+    },
+    inline: {
+      listitem: {
+        display: 'block',
+        margin: '0.2em 0',
+        color: '#000000',
+        lineHeight: '1.7'
+      },
+
+      codespan: {
+        'fontSize': '14px',
+        'color': '#d14',
+        'background': 'rgba(0, 0, 0, 0.05)',
+        'padding': '2px 6px',
+        'borderRadius': '4px',
+        'fontFamily': 'Menlo, Monaco, Consolas, "Courier New", monospace'
+      },
+
+      em: {
+        'fontStyle': 'italic',
+        'color': '#000000',
+      },
+
+      link: {
+        color: '#576b95',
+        textDecoration: 'none',
+        borderBottom: '1px solid #576b95'
+      },
+
+      // 字体加粗样式
+      strong: {
+        color: '#000000',
+        fontWeight: 'bold',
+        fontSize: 'inherit'
+      },
+
+      footnote: {
+        'fontSize': '12px',
+        'color': '#000000',
+      }
+    }
+  },
+  transform: (html: string) => html
+},
+
   {
     id: 'default',
-    name: '律海行',
+    name: '律海行2',
     description: '小陈陈自定义的默认样式',
     styles: '',
     options: {
