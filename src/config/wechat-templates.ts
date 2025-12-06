@@ -101,6 +101,12 @@ export const templates: Template[] = [
         'textIndent': '0',  // 添加首行缩进
         'letterSpacing': '0.01em'  // 轻微字间距
       },
+      
+      br: {
+           'display': 'block',
+           'margin-bottom': '0.75em',
+           'content': ''
+           },
 
       // 引用
       blockquote: {
@@ -231,10 +237,7 @@ export const templates: Template[] = [
       }
     }
   },
-  //transform: (html: string) => html
-  transform: (html: string) => {
-  // 使用正则表达式为所有<p>标签添加内联样式
-  return html.replace(/<p(.*?)>/g, '<p$1 style="margin-bottom: 1.5em !important;">');
+  transform: (html: string) => html
 }
 },
   {
