@@ -26,7 +26,7 @@ export const templates: Template[] = [
       margin: '0 auto',
       wordBreak: 'break-word',
       whiteSpace: 'pre-wrap',
-      fontSize: '16px',
+      fontSize: '17px',
       color: '#000000',
       // 移除 backgroundColor 属性，因为它不在类型定义中
       // backgroundColor: '#ffffff'
