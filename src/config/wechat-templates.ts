@@ -101,12 +101,6 @@ export const templates: Template[] = [
         'textIndent': '0',  // 添加首行缩进
         'letterSpacing': '0.01em'  // 轻微字间距
       },
-      
-      br: {
-           'display': 'block',
-           'margin-bottom': '0.75em',
-           'content': ''
-           },
 
       // 引用
       blockquote: {
@@ -238,7 +232,6 @@ export const templates: Template[] = [
     }
   },
   transform: (html: string) => html
-}
 },
   {
     id: 'default',
