@@ -231,10 +231,12 @@ export const templates: Template[] = [
       }
     }
   },
-  transform: (html: string) => html
+  //transform: (html: string) => html
+  transform: (html: string) => {
+  // 使用正则表达式为所有<p>标签添加内联样式
+  return html.replace(/<p(.*?)>/g, '<p$1 style="margin-bottom: 1.5em !important;">');
+}
 },
-
-
   {
     id: 'default',
     name: '律海',
