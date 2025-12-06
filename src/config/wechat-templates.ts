@@ -93,12 +93,12 @@ export const templates: Template[] = [
 
       // 段落 - 根据图片中的排版修改
       p: {
-        'fontSize': '16px',
+        'fontSize': '17px',
         'margin': '0 0 1.5em 0',  // 调整为与图片类似的段后距
         'lineHeight': '1.7',
         'color': '#000000',
         'textAlign': 'justify',
-        'textIndent': '2em',  // 添加首行缩进
+        'textIndent': '0',  // 添加首行缩进
         'letterSpacing': '0.01em'  // 轻微字间距
       },
 
@@ -237,7 +237,7 @@ export const templates: Template[] = [
 
   {
     id: 'default',
-    name: '律海行2',
+    name: '律海',
     description: '小陈陈自定义的默认样式',
     styles: '',
     options: {
