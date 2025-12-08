@@ -26,7 +26,7 @@ export const templates: Template[] = [
       margin: '0 auto',
       wordBreak: 'break-word',
       whiteSpace: 'pre-wrap',
-      fontSize: '17px',
+      fontSize: '18px',
       color: '#000000',
       // 移除 backgroundColor 属性，因为它不在类型定义中
       // backgroundColor: '#ffffff'
@@ -39,7 +39,7 @@ export const templates: Template[] = [
         borderBottom: '2px solid var(--themeColor)',
         margin: '2em auto 1em',
         color: '#000000',
-        fontSize: '1.4em',
+        fontSize: '1.5em',
         fontWeight: 'bold',
         textAlign: 'center'
       },
@@ -51,7 +51,7 @@ export const templates: Template[] = [
         margin: '2em auto 2em',
         color: '#000000',
         background: 'rgb(245, 245, 245)',
-        fontSize: '1.3em',
+        fontSize: '1.4em',
         fontWeight: 'bold',
         borderRadius: '0px 24px 24px 0px',
         textAlign: 'center'
@@ -63,7 +63,7 @@ export const templates: Template[] = [
         borderLeft: '3px solid var(--themeColor)',
         margin: '2em 8px 0.75em 0',
         color: '#000000',
-        fontSize: '1.2em',
+        fontSize: '1.3em',
         fontWeight: 'bold',
         lineHeight: '1.2'
       },
@@ -93,7 +93,7 @@ export const templates: Template[] = [
 
       // 段落 - 根据图片中的排版修改
       p: {
-        'fontSize': '17px',
+        'fontSize': '18px',
         'margin': '0 0 1.5em 0',  // 调整为与图片类似的段后距
         'lineHeight': '1.7',
         'color': '#000000',
