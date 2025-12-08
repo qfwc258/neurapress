@@ -28,7 +28,7 @@ export const templates: Template[] = [
       whiteSpace: 'pre-wrap',
       fontSize: '17px',
       color: '#000000',
-      boldColor:'#C01E3A'
+      boldColor: '#C01E3A'
       // 移除 backgroundColor 属性，因为它不在类型定义中
       // backgroundColor: '#ffffff'
     },
@@ -222,7 +222,7 @@ export const templates: Template[] = [
       // 字体加粗样式
       strong: {
         //color: '#C01E3A',
-        color: `var(--themeColor)`,
+        //color: `var(--themeColor)`,
         fontWeight: 'bold',
         fontSize: 'inherit'
       },
