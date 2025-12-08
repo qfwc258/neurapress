@@ -236,9 +236,9 @@ export const templates: Template[] = [
   transform: (html: string) => html
 },
   {
-    id: 'default',
+    id: 'law2',
     name: '律海',
-    description: '小陈陈自定义的默认样式',
+    description: '小陈陈自定义的样式2',
     styles: '',
     options: {
         base: {
@@ -252,7 +252,7 @@ export const templates: Template[] = [
             wordBreak: 'break-word',
             whiteSpace: 'pre-wrap',
             fontSize: '17px',
-            color: '#333'
+            color: '#344FA1'
           },
           block: {    // 一级标题
             h1: {
