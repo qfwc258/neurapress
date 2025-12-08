@@ -221,7 +221,7 @@ export const templates: Template[] = [
       // 字体加粗样式
       strong: {
         //color: '#C01E3A',
-        'color': `var(--themeColor)`,
+        color: `var(--themeColor)`,
         fontWeight: 'bold',
         fontSize: 'inherit'
       },
