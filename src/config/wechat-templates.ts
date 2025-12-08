@@ -39,7 +39,7 @@ export const templates: Template[] = [
         borderBottom: '2px solid var(--themeColor)',
         margin: '2em auto 1em',
         color: '#000000',
-        fontSize: '1.5em',
+        fontSize: '1.4em',
         fontWeight: 'bold',
         textAlign: 'center'
       },
@@ -51,7 +51,7 @@ export const templates: Template[] = [
         margin: '2em auto 2em',
         color: '#000000',
         background: 'rgb(245, 245, 245)',
-        fontSize: '1.4em',
+        fontSize: '1.3em',
         fontWeight: 'bold',
         borderRadius: '0px 24px 24px 0px',
         textAlign: 'center'
@@ -63,7 +63,7 @@ export const templates: Template[] = [
         borderLeft: '3px solid var(--themeColor)',
         margin: '2em 8px 0.75em 0',
         color: '#000000',
-        fontSize: '1.3em',
+        fontSize: '1.2em',
         fontWeight: 'bold',
         lineHeight: '1.2'
       },
@@ -72,7 +72,7 @@ export const templates: Template[] = [
       h4: {
         margin: '2em 8px 0.5em',
         color: '#000000',
-        fontSize: '1.2em',
+        fontSize: '1.1em',
         fontWeight: 'bold'
       },
 
@@ -80,14 +80,14 @@ export const templates: Template[] = [
       h5: {
         margin: '1.5em 8px 0.5em',
         color: '#000000',
-        fontSize: '1.1em',
+        fontSize: '1.0em',
         fontWeight: 'bold'
       },
 
       // 六级标题
       h6: {
         margin: '1.5em 8px 0.5em',
-        fontSize: '1.1em',
+        fontSize: '1.0em',
         color: '#000000'
       },
 
@@ -220,7 +220,8 @@ export const templates: Template[] = [
 
       // 字体加粗样式
       strong: {
-        color: '#C01E3A',
+        //color: '#C01E3A',
+        'color': `var(--themeColor)`,
         fontWeight: 'bold',
         fontSize: 'inherit'
       },
