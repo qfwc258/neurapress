@@ -17,7 +17,7 @@ export const templates: Template[] = [
   styles: '',
   options: {
     base: {
-      themeColor: 'rgb(15, 76, 129)',
+      themeColor: '#C01E3A',
       fontFamily: '-apple-system-font, BlinkMacSystemFont, "Helvetica Neue", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei UI", "Microsoft YaHei", Arial, sans-serif',
       textAlign: 'left',
       lineHeight: '1.7',
