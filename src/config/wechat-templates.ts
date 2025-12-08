@@ -26,7 +26,7 @@ export const templates: Template[] = [
       margin: '0 auto',
       wordBreak: 'break-word',
       whiteSpace: 'pre-wrap',
-      fontSize: '18px',
+      fontSize: '17px',
       color: '#000000',
       // 移除 backgroundColor 属性，因为它不在类型定义中
       // backgroundColor: '#ffffff'
@@ -93,7 +93,7 @@ export const templates: Template[] = [
 
       // 段落 - 根据图片中的排版修改
       p: {
-        'fontSize': '18px',
+        'fontSize': '17px',
         'margin': '0 0 1.5em 0',  // 调整为与图片类似的段后距
         'lineHeight': '1.7',
         'color': '#000000',
