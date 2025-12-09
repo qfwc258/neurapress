@@ -47,15 +47,20 @@ export const templates: Template[] = [
 
       // 二级标题
       h2: {
-        display: 'table',
-        padding: '0.3em 0.3em',
-        margin: '2em auto 2em',
-        color: '#FFFFFF',
-        background: '#C01E3A',
-        fontSize: '1.3em',
-        fontWeight: 'bold',
-        borderRadius: '24px 24px 24px 24px',
-        textAlign: 'center'
+  display: 'table',
+  padding: '1.2em',  // 等边内边距
+  margin: '2em auto 2em',
+  color: '#FFFFFF',
+  background: '#800000',
+  fontSize: '1.3em',
+  fontWeight: 'bold',
+  borderRadius: '50%',  // 50%实现正圆形
+  textAlign: 'center',
+  width: '60px',  // 固定宽度
+  height: '60px',  // 固定高度
+  display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'center'
       },
 
       // 三级标题
