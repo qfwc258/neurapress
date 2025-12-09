@@ -47,7 +47,7 @@ export const templates: Template[] = [
 
       // 二级标题
       h2: {
-  padding: '1.2em',  // 等边内边距
+  padding: '1em',  // 等边内边距
   margin: '2em auto 2em',
   color: '#FFFFFF',
   background: '#800000',
