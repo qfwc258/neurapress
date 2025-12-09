@@ -151,7 +151,6 @@ export class MarkdownRenderer {
       })
     }
 
-     /*
     //重写 heading 方法
     this.renderer.heading = ({ text, depth }: Tokens.Heading) => {
       const headingKey = `h${depth}` as keyof RendererOptions['block']
@@ -165,7 +164,6 @@ export class MarkdownRenderer {
       const content = marked.Parser.parseInline(tokens, { renderer: this.renderer })
       return `<h${depth}${styleStr ? ` style="${styleStr}"` : ''}>${content}</h${depth}>`
     }
-    */
 
     // 重写 paragraph 方法
     this.renderer.paragraph = ({ text, tokens }: Tokens.Paragraph) => {
