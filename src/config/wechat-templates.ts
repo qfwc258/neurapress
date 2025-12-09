@@ -55,8 +55,8 @@ export const templates: Template[] = [
   fontWeight: 'bold',
   borderRadius: '50%',  // 50%实现正圆形
   textAlign: 'center',
-  width: '20px',  // 固定宽度
-  height: '20px',  // 固定高度
+  width: '15px',  // 固定宽度
+  height: '15px',  // 固定高度
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center'
