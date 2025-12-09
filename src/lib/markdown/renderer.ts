@@ -157,7 +157,7 @@ export class MarkdownRenderer {
       const headingStyle = (this.options.block?.[headingKey] || {})
       const style = {
         ...headingStyle,
-        color: this.options.base?.themeColor
+        color: this.options.base?.color
       }
       const styleStr = cssPropertiesToString(style)
       const tokens = marked.Lexer.lexInline(text)
@@ -245,7 +245,7 @@ export class MarkdownRenderer {
       const strongStyle = (this.options.inline?.strong || {})
       const style = {
         ...strongStyle,
-        color: this.options.base?.color,
+        color: this.options.base?.themeColor,
         //color: '#C01E3A',
         fontWeight: 'bold'
       }

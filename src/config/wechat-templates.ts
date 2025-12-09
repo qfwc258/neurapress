@@ -27,7 +27,7 @@ export const templates: Template[] = [
       wordBreak: 'break-word',
       whiteSpace: 'pre-wrap',
       fontSize: '17px',
-      color: '#C01E3A',
+      color: '#FFFFFF',
       //boldColor: '#C01E3A'
       // 移除 backgroundColor 属性，因为它不在类型定义中
       // backgroundColor: '#ffffff'
@@ -48,13 +48,13 @@ export const templates: Template[] = [
       // 二级标题
       h2: {
         display: 'table',
-        padding: '0.3em 1.2em',
+        padding: '0.3em 0.3em',
         margin: '2em auto 2em',
-        color: '#000000',
-        background: 'rgb(245, 245, 245)',
+        color: '#FFFFFF',
+        background: 'var(--themeColor)',
         fontSize: '1.3em',
         fontWeight: 'bold',
-        borderRadius: '0px 24px 24px 0px',
+        borderRadius: '24px 24px 24px 24px',
         textAlign: 'center'
       },
 
