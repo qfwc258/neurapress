@@ -47,16 +47,16 @@ export const templates: Template[] = [
 
       // 二级标题
       h2: {
-  padding: '1em',  // 等边内边距
-  margin: '2em auto 2em',
+  padding: '0.8em',  // 等边内边距
+  margin: '1em auto 1em',
   color: '#FFFFFF',
   background: '#800000',
-  fontSize: '1.3em',
+  fontSize: '1.2em',
   fontWeight: 'bold',
   borderRadius: '50%',  // 50%实现正圆形
   textAlign: 'center',
-  width: '15px',  // 固定宽度
-  height: '15px',  // 固定高度
+  width: '13px',  // 固定宽度
+  height: '13px',  // 固定高度
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center'
